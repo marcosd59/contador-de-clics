@@ -19,15 +19,15 @@ El proyecto de Contador de Clics es una sencilla herramienta web que ayuda a lle
 
 ### Pagina principal
 
-![Pagina principla](./src/img/screenshots/Captura%20de%20pantalla%201.png)
+![Pagina principla](./src/img/screenshots/Pagina%20principal.png)
 
 ### Contador en acción
 
-![3 digitos](./src/img/screenshots/Captura%20de%20pantalla%202.png)
+![3 digitos](./src/img/screenshots/Contador%20de%20clics.png)
 
 ### Botón de reiniciar
 
-![Boton de reiniciar](./src/img/screenshots/Captura%20de%20pantalla%203.png)
+![Boton de reiniciar](./src/img/screenshots/Boton%20de%20reiniciar.png)
 
 ## Cómo Utilizar
 
