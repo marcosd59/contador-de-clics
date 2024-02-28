@@ -6,7 +6,7 @@
 
 html,
 body {
-    background-color: #1b1b32;
+    background: linear-gradient(to right, #011627, #002855);
 }
 
 .App {
@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin-top: 50px;
 }
 
 .freecodecamp-logo {
