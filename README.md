@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Contador de Clics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta aplicación web esta desarrollada con React y permite contar los clics del usuario, mostrando el total acumulado y ofreciendo la posibilidad de reiniciar el contador.
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+El proyecto de Contador de Clics es una sencilla herramienta web que ayuda a llevar un registro de la cantidad de clics realizados por el usuario. Desarrollado con React, este proyecto demuestra el uso de estados para actualizar y mostrar datos en tiempo real, proporcionando una herramienta interactiva y fácil de usar.
 
-### `npm start`
+### Prueba el Contador de Clics aquí: [Contador de Clics](https://marcosd59-contador-de-clics.netlify.app/) 👆🏻
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Características
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Conteo de Clics**: Contabiliza cada clic realizado por el usuario.
+- **Total Acumulado**: Muestra la cantidad total de clics realizados.
+- **Reinicio del Contador**: Permite al usuario reiniciar el conteo de clics a cero.
+- **Interfaz de Usuario Sencilla**: Facilita la interacción sin distracciones.
 
-### `npm test`
+## Capturas de pantalla
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pagina principal
 
-### `npm run build`
+![Pagina principla](./src/img/screenshots/Captura%20de%20pantalla%201.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Contador en acción
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![3 digitos](./src/img/screenshots/Captura%20de%20pantalla%202.png)
+![6 digitos](./src/img/screenshots/Captura%20de%20pantalla%203.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Botón de reiniciar
 
-### `npm run eject`
+![Boton de reiniciar](./src/img/screenshots/Captura%20de%20pantalla%204.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Cómo Utilizar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para ejecutar la aplicación de Contador de Clics en tu entorno local, sigue estos pasos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerrequisitos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js
+- npm o yarn
 
-## Learn More
+### Instalación
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clona el repositorio en tu máquina local:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```sh
+   git clone https://github.com/marcosd59/contador-de-clics.git
+   ```
 
-### Code Splitting
+2. Navega al directorio del proyecto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```sh
+   cd contador-de-clics
+   ```
 
-### Analyzing the Bundle Size
+3. Instala las dependencias necesarias:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```sh
+   npm install
+   ```
 
-### Making a Progressive Web App
+   o si prefieres yarn:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```sh
+   yarn
+   ```
 
-### Advanced Configuration
+4. Inicia la aplicación:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```sh
+   npm start
+   ```
 
-### Deployment
+   o si usas yarn:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```sh
+   yarn start
+   ```
 
-### `npm run build` fails to minify
+La aplicación debería abrirse automáticamente en tu navegador por defecto en la dirección `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tecnologías
+
+- [React](https://reactjs.org/)
+- [Netlify](https://www.netlify.com/)
+
+## Contribuir
+
+Las contribuciones hacen que la comunidad de código abierto sea un lugar maravilloso para aprender, inspirar y crear. Cualquier contribución que hagas será **muy bienvenida**.
+
+Si tienes una sugerencia para mejorar este proyecto, por favor haz un fork del repositorio y crea una pull request. También puedes simplemente abrir un issue con la etiqueta "enhancement".
+¡No olvides dar una estrella al proyecto si te ha ayudado!
+
+## Contacto
+
+Marcos Damián Pool Canul - damian.marcospool@gmail.com
+
+URL del Proyecto: [https://github.com/marcosd59/contador-de-clics](https://github.com/marcosd59/contador-de-clics)
